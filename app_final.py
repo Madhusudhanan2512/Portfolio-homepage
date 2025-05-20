@@ -102,7 +102,7 @@ with col2:
                 🔗 <a href='#'>App</a> | 🎥 <a href='#'>Video</a> | 💻 <a href='#'>GitHub</a>
             </li><br>
             <li><strong>Sales Data Analysis</strong><br>
-                🔗 <a href='#'>App</a> | 🎥 <a href='#'>Video</a> | 💻 <a href='#'>GitHub</a>
+                🔗 <a href='https://salesdataapp-dixwrjkw82anbschuns9q7.streamlit.app'>App</a> | 🎥 <a href='https://drive.google.com/file/d/1C106oSp60fnWf133dz47xEEt5rtirxRf/view?usp=sharing'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project--Sales-Data-Analysis'>GitHub</a>
             </li><br>
             <li><strong>Flight Price Prediction (Regression)</strong><br>
                 🔗 <a href='#'>App</a> | 🎥 <a href='#'>Video</a> | 💻 <a href='#'>GitHub</a>
