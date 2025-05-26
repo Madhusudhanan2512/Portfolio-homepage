@@ -309,7 +309,7 @@ elif sidebar_choice == "Completed Projects":
     - Improved workforce stability and morale by addressing the root causes of attrition before they become critical.
     - Enhanced decision-making for HR and management through interpretable, accurate predictive models, resulting in a more engaged and productive workforce.
     """)
-    st.markdown("[Open App](#)", unsafe_allow_html=True)
+    st.markdown("[Open App]('#')", unsafe_allow_html=True)
 
 # ...Repeat for each completed project
 
