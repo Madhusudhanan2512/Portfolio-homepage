@@ -208,7 +208,7 @@ elif sidebar_choice == "Virtual Internships":
 
     st.subheader("Standard Bank Data Science Simulation")
     st.write(""" 
-    **Project Overview:** 
+    - **Project Overview:** 
     - Developed a machine learning solution to automate and improve home loan approval predictions for financial institutions.
     - Performed thorough data analysis and preprocessing on a dataset of 614 loan applications, focusing on key factors such as income and education.
     - Implemented and compared three algorithms: Logistic Regression, Decision Tree, and Random Forest—finding Random Forest achieved the highest accuracy (80%).
