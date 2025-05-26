@@ -33,6 +33,7 @@ sidebar_choice = st.sidebar.radio(
     "Navigate",
     [
         "Home",
+        "About Me",
         "Important Info About This App",
         "Virtual Internships",
         "Completed Projects",
@@ -166,6 +167,15 @@ elif sidebar_choice == "Important Info About This App":
     - For a **quick overview**, see the homepage sections.
     - For a **detailed dashboard, EDA, and business insights**, please use the “App” links for each project in the sidebar sections.  
     - Designed for recruiters, hiring managers, and data science professionals.
+    """)
+
+elif sidebar_choice == "About Me":
+    st.header("👤 About Me")
+
+    st.write("""
+    Outside of data science, I am a passionate fitness enthusiast and avid cyclist. I love exploring new trails and pushing my physical limits on two wheels—cycling has taught me the power of endurance, focus, and the value of steady progress over time. Fitness is not just a hobby for me, but a daily discipline that energizes me, keeps my mind sharp, and reminds me of the importance of consistency in achieving long-term goals.
+
+    I am also deeply inspired by the mindset of the Indian Army Special Forces. Their unwavering discipline, mental resilience, and commitment to teamwork are values I strive to embody in both my personal and professional life. I believe these qualities translate directly to my work as a data scientist: attention to detail, the ability to tackle complex challenges under pressure, and the drive to deliver results for the team and the organization. I am excited to bring this disciplined, growth-oriented approach to your company, combining technical expertise with a strong mindset for continuous improvement and excellence.
     """)
 
 # ---- VIRTUAL INTERNSHIPS (SIDEBAR) ----
