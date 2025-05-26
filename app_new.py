@@ -260,7 +260,7 @@ elif sidebar_choice == "Completed Projects":
     - Enhanced financial planning and budgeting accuracy by providing reliable sales projections for upcoming weeks or months.
     - Strengthened Walmart’s ability to respond proactively to market changes, leading to increased customer satisfaction and operational efficiency.
     """)
-    st.markdown("[Open App](https://your-walmart-app-link)", unsafe_allow_html=True)
+    st.markdown("[Open App](https://walmartdataapp-ulq7w4tgibmcamvewukffs.streamlit.app)", unsafe_allow_html=True)
 
     st.subheader("Sales Data Analysis")
     st.write("""
@@ -274,7 +274,7 @@ elif sidebar_choice == "Completed Projects":
     - Optimized resource allocation and staffing by quantifying sales distribution across different times of day, ensuring key periods are adequately supported.
     - Increased organizational agility and competitiveness by validating significant changes with robust statistical analysis, reducing reliance on guesswork.
     """)
-    st.markdown("[Open App](https://your-sales-app-link)", unsafe_allow_html=True)
+    st.markdown("[Open App](https://salesdataapp-dixwrjkw82anbschuns9q7.streamlit.app)", unsafe_allow_html=True)
 
     # ...Repeat for each completed project
 
