@@ -205,6 +205,17 @@ elif sidebar_choice == "Virtual Internships":
     - Communicated findings and analysis in a PowerPoint slide to present results to the business.
     """)
     st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
+
+    st.subheader("Standard Bank Data Science Simulation")
+    st.write(""" 
+    **Project Overview:** 
+    - Developed a machine learning solution to automate and improve home loan approval predictions for financial institutions.
+    - Performed thorough data analysis and preprocessing on a dataset of 614 loan applications, focusing on key factors such as income and education.
+    - Implemented and compared three algorithms: Logistic Regression, Decision Tree, and Random Forest—finding Random Forest achieved the highest accuracy (80%).
+    - Discovered that higher income, higher loan amounts, and being a graduate all positively influenced loan approval rates.
+    - Demonstrated how machine learning can streamline decision-making in banking, with future improvements possible using advanced models.
+    """)
+    st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
    
     st.subheader("PwC Switzerland – Power BI Simulation")
     st.write("""
