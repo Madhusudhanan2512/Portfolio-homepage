@@ -192,7 +192,20 @@ elif sidebar_choice == "Virtual Internships":
     - Built a predictive model to understand factors influencing buying behavior.
     """)
     st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
-    
+
+    st.subheader("Cognizant Artificial Intelligence Job Simulation")
+    st.write("""
+    - **Simulation:** Applied AI and data science skills to real-world business challenges.
+    - **Skills:** Exploratory data analysis, Python, model development, business communication.
+   
+    **Project Overview:**
+    - Completed a job simulation focused on AI for Cognizant’s Data Science team.
+    - Conducted exploratory data analysis using Python and Google Colab for one of Cognizant’s technology-led clients, Gala Groceries.
+    - Prepared a Python module with code to train a model and output performance metrics for the Machine Learning engineering team.
+    - Communicated findings and analysis in a PowerPoint slide to present results to the business.
+    """)
+    st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
+   
     st.subheader("PwC Switzerland – Power BI Simulation")
     st.write("""
     - **Simulation:** Real-world business dashboarding with Power BI.
