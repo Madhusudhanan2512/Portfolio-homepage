@@ -197,13 +197,12 @@ elif sidebar_choice == "Virtual Internships":
     st.write("""
     - **Simulation:** Real-world business dashboarding with Power BI.
     - **Skills:** Data visualization, business analytics, KPIs.
-    - **Project Overview:** 
-        I completed a job simulation where I enhanced my PowerBI skills to better understand client data visualization needs.
-        I built effective Power BI dashboards to communicate key business metrics and respond to client requests with tailored solutions.
-        My strong communication skills were demonstrated through clear and insightful emails to engagement partners, sharing actionable analysis.
-        I applied analytical problem-solving to HR data, with a special focus on gender-related KPIs.
-        Through this, I identified the root causes of gender balance issues at the executive level.
-        This experience highlights my commitment to data-driven decision-making and delivering value through analytics.
+    **Project Overview:**
+    - Enhanced PowerBI skills to better understand client data visualization needs.
+    - Built effective dashboards to communicate key business metrics and respond to client requests with tailored solutions.
+    - Demonstrated strong communication skills through clear, insightful emails to engagement partners, delivering actionable analysis.
+    - Applied analytical problem-solving to HR data, focusing on gender-related KPIs and identifying root causes of gender balance issues at the executive level.
+    - Demonstrated a commitment to data-driven decision-making and delivering value through analytics.
     """)
     st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
     # ...Repeat for each internship
