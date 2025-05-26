@@ -293,7 +293,24 @@ elif sidebar_choice == "Completed Projects":
     - Supported better financial planning and decision-making by delivering reliable, automated ticket price forecasts, ultimately driving profitability.
     """)
     st.markdown("[Open App](https://flight-booking-app-tpayz3od5luydekqrvs9ep.streamlit.app)", unsafe_allow_html=True)
-   
+
+    st.subheader("Employee Turnover Prediction")
+    st.write("""
+
+    **Problem:** 
+    - The Human Resources department is experiencing high attrition rates, resulting in increased recruitment costs and organizational instability.
+    - Analyze historical employee data to predict attrition.
+    - Identify key drivers behind employee resignation.
+
+    **Business Impact:** 
+    - Enabled HR teams to proactively identify employees at risk of leaving, allowing for targeted retention strategies and reduced turnover costs.
+    - Reduced recruitment and training expenses by improving retention and minimizing the loss of valuable talent.
+    - Provided actionable insights on key drivers of attrition (such as overtime, lack of promotion, and tenure), supporting data-driven policy and workplace improvements.
+    - Improved workforce stability and morale by addressing the root causes of attrition before they become critical.
+    - Enhanced decision-making for HR and management through interpretable, accurate predictive models, resulting in a more engaged and productive workforce.
+    """)
+    st.markdown("[Open App](#)", unsafe_allow_html=True)
+
 # ...Repeat for each completed project
 
 # ---- ONGOING PROJECTS (SIDEBAR) ----
