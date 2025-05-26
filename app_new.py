@@ -167,6 +167,7 @@ elif sidebar_choice == "Important Info About This App":
     - For a **quick overview**, see the homepage sections.
     - For a **detailed dashboard, EDA, and business insights**, please use the “App” links for each project in the sidebar sections.  
     - Designed for recruiters, hiring managers, and data science professionals.
+    - The Web Pages may not load due to inactivity, it may go to sleep, since it has been hosted on free cloud platform, kindly wait for few seconds to refresh itself or refresh button will be shown in the middle of the page. I appreciate and respect your patience in this process, thank you.
     """)
 
 elif sidebar_choice == "About Me":
