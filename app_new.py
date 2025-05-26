@@ -181,6 +181,18 @@ elif sidebar_choice == "About Me":
 # ---- VIRTUAL INTERNSHIPS (SIDEBAR) ----
 elif sidebar_choice == "Virtual Internships":
     st.header("🎓 Virtual Internships")
+    st.subheader("British Airways: Data Science Simulation")
+    st.write(""" 
+    - **Simulation:** Applied data science to real-world airline business challenges.
+    - **Skills:** Data scraping, customer analytics, predictive modeling.
+
+    **Project Overview:**
+    - Completed a simulation focusing on how data science drives British Airways' success.
+    - Scraped and analyzed customer review data to uncover key insights.
+    - Built a predictive model to understand factors influencing buying behavior.
+    """)
+    st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
+    
     st.subheader("PwC Switzerland – Power BI Simulation")
     st.write("""
     - **Simulation:** Real-world business dashboarding with Power BI.
