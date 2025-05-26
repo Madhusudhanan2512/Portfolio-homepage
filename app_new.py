@@ -128,10 +128,10 @@ if sidebar_choice == "Home":
             <h4 style="color:#0A66C2;">✅ Completed Projects</h4>
             <ul style="list-style-type:none; padding-left:0;">
                 <li><strong>Time Series Analysis – Walmart Sales</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='#' target='_blank'>GitHub</a>
+                    🎥 <a href='https://drive.google.com/file/d/1Ok5vu05VKmtrG3h1lRAOW5BL-fvVH-ku/view?usp=sharing' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project---Time-Series-Analysis---Walmart-Store-Sales' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Sales Data Analysis</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='#' target='_blank'>GitHub</a>
+                    🎥 <a href='https://drive.google.com/file/d/1C106oSp60fnWf133dz47xEEt5rtirxRf/view?usp=sharing' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project--Sales-Data-Analysis' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Flight Price Prediction (Regression)</strong><br>
                     🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='#' target='_blank'>GitHub</a>
