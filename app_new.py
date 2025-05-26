@@ -197,6 +197,7 @@ elif sidebar_choice == "Virtual Internships":
     st.write("""
     - **Simulation:** Real-world business dashboarding with Power BI.
     - **Skills:** Data visualization, business analytics, KPIs.
+   
     **Project Overview:**
     - Enhanced PowerBI skills to better understand client data visualization needs.
     - Built effective dashboards to communicate key business metrics and respond to client requests with tailored solutions.
