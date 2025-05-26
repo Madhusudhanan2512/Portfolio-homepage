@@ -267,7 +267,7 @@ elif sidebar_choice == "Completed Projects":
     - **Problem:** Uncover daily/weekly sales trends and key drivers.
     - **Skills:** Data visualization, hypothesis testing, customer segmentation.
 
-    ** Business Impact:**
+    **Business Impact:**
     - Enabled data-driven decision-making by revealing sudden shifts in sales trends, helping management quickly adapt strategies to maximize revenue.
     - Improved marketing and promotional planning by identifying the exact timing of significant sales changes and understanding underlying drivers.
     - Enhanced customer segmentation and targeting through insights into gender-based purchasing patterns, supporting more effective, personalized campaigns.
