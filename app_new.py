@@ -266,6 +266,13 @@ elif sidebar_choice == "Completed Projects":
     st.write("""
     - **Problem:** Uncover daily/weekly sales trends and key drivers.
     - **Skills:** Data visualization, hypothesis testing, customer segmentation.
+
+    ** Business Impact:**
+    - Enabled data-driven decision-making by revealing sudden shifts in sales trends, helping management quickly adapt strategies to maximize revenue.
+    - Improved marketing and promotional planning by identifying the exact timing of significant sales changes and understanding underlying drivers.
+    - Enhanced customer segmentation and targeting through insights into gender-based purchasing patterns, supporting more effective, personalized campaigns.
+    - Optimized resource allocation and staffing by quantifying sales distribution across different times of day, ensuring key periods are adequately supported.
+    - Increased organizational agility and competitiveness by validating significant changes with robust statistical analysis, reducing reliance on guesswork.
     """)
     st.markdown("[Open App](https://your-sales-app-link)", unsafe_allow_html=True)
 
