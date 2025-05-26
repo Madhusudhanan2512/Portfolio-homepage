@@ -277,7 +277,24 @@ elif sidebar_choice == "Completed Projects":
     """)
     st.markdown("[Open App](https://salesdataapp-dixwrjkw82anbschuns9q7.streamlit.app)", unsafe_allow_html=True)
 
-    # ...Repeat for each completed project
+    st.subheader("Flight Booking Price Prediction")
+    st.write("""
+    
+    **Problem:** 
+    - Analyze a large dataset of 300,000+ flight bookings obtained from a popular airline booking platform. 
+    - Understand the factors affecting flight ticket prices.
+    - Apply various machine learning models to predict prices.
+
+    **Business Impact:** 
+    - Empowered the airline to set dynamic, data-driven ticket prices, maximizing revenue and market competitiveness.
+    - Enhanced customer satisfaction and trust by providing more accurate, transparent fare predictions, reducing price uncertainty for travelers.
+    - Informed marketing and promotional strategies by identifying the key factors (e.g., days left, stops, flight class) that most influence ticket prices.
+    - Enabled smarter inventory and capacity planning by forecasting demand based on predicted pricing trends.
+    - Supported better financial planning and decision-making by delivering reliable, automated ticket price forecasts, ultimately driving profitability.
+    """)
+    st.markdown("[Open App](https://flight-booking-app-tpayz3od5luydekqrvs9ep.streamlit.app)", unsafe_allow_html=True)
+   
+# ...Repeat for each completed project
 
 # ---- ONGOING PROJECTS (SIDEBAR) ----
 elif sidebar_choice == "Ongoing Projects":
