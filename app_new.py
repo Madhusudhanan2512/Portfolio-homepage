@@ -252,7 +252,13 @@ elif sidebar_choice == "Completed Projects":
     st.write("""
     - **Problem:** Forecast weekly sales for Walmart stores.
     - **Skills:** Time series analysis, ARIMA/Prophet, EDA, data cleaning.
-    - **Business Impact:** Inventory optimization.
+    
+    **Business Impact:** 
+    - Enabled more accurate sales forecasts, allowing Walmart to optimize inventory levels and reduce stockouts or overstock situations.
+    - Improved demand planning, resulting in better allocation of resources across stores and regions.
+    - Supported data-driven promotional strategies by identifying seasonality and sales trends, helping maximize revenue during peak periods.
+    - Enhanced financial planning and budgeting accuracy by providing reliable sales projections for upcoming weeks or months.
+    - Strengthened Walmart’s ability to respond proactively to market changes, leading to increased customer satisfaction and operational efficiency.
     """)
     st.markdown("[Open App](https://your-walmart-app-link)", unsafe_allow_html=True)
 
