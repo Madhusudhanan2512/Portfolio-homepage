@@ -319,27 +319,25 @@ elif sidebar_choice == "Comments & Suggestions":
     # ---- COMMENTS SECTION ----
     import gspread
     from google.oauth2.service_account import Credentials
+    import json
     import pandas as pd
     from datetime import datetime
 
-    SHEET_NAME = 'PortfolioComments'  # Or your chosen sheet name
+
+    # 1. Load Google service account credentials from Streamlit Secrets
+    service_account_info = json.loads(st.secrets["gcp_service_account"])
     SCOPES = [
         "https://www.googleapis.com/auth/spreadsheets",
         "https://www.googleapis.com/auth/drive"
     ]
-    SERVICE_ACCOUNT_FILE = 'gcp_service_account.json'
+    creds = Credentials.from_service_account_info(service_account_info, scopes=SCOPES)
+    gc = gspread.authorize(creds)
 
-    @st.cache_resource
-    def get_gspread_client():
-        creds = Credentials.from_service_account_file(
-            SERVICE_ACCOUNT_FILE, scopes=SCOPES
-        )
-        client = gspread.authorize(creds)
-        return client
-
-    gc = get_gspread_client()
+    # 2. Now access your sheet as before
+    SHEET_NAME = 'PortfolioComments'  # Or your chosen sheet name
     sheet = gc.open(SHEET_NAME).sheet1
 
+    # 3. Everything else (functions, Streamlit form, etc.) stays the same!
     def fetch_comments():
         data = sheet.get_all_records()
         return pd.DataFrame(data)
@@ -365,6 +363,5 @@ elif sidebar_choice == "Comments & Suggestions":
             st.markdown(f"- **{row['name']}** ({row['timestamp']}):<br> {row['comment']}", unsafe_allow_html=True)
     else:
         st.info("No comments yet—be the first to leave feedback!")
-
 
 
