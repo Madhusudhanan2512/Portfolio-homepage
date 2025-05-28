@@ -134,10 +134,10 @@ if sidebar_choice == "Home":
                     🎥 <a href='https://drive.google.com/file/d/1C106oSp60fnWf133dz47xEEt5rtirxRf/view?usp=sharing' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project--Sales-Data-Analysis' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Flight Price Prediction (Regression)</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project---Regression-Problem---Predicting-Flight-Booking-Price' target='_blank'>GitHub</a>
+                    🎥 <a href='https://drive.google.com/file/d/1ryg50xvbH6fK9BP81fulhN3UHA5IY-Wj/view?usp=sharing' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project---Regression-Problem---Predicting-Flight-Booking-Price' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Predicting Employee Attrition</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project---Predicting-Employee-Attrition' target='_blank'>GitHub</a>
+                    🎥 <a href='https://drive.google.com/file/d/11rUMxbfcmbx0WhyVRSm1kUOrgoalC4oK/view?usp=sharing' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Project---Predicting-Employee-Attrition' target='_blank'>GitHub</a>
                 </li>
             </ul>
         </div>
