@@ -61,7 +61,7 @@ if sidebar_choice == "Home":
     st.markdown("<div class='subtitle'>Data Science Professional | Python Enthusiast | Machine Learning Explorer</div>", unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align:center; margin-bottom: 1em; margin-top: 0.5em;">
-        <span style="font-size:22px; color:#000080; font-style: italic;">
+        <span style="font-size:22px; color:#2F4F4F; font-style: italic;">
             “Data science isn’t the privilege of a select few—it’s an opportunity for anyone willing to learn, explore, and create.”
         </span>
         <br>
