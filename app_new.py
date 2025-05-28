@@ -1,4 +1,8 @@
 import streamlit as st
+import gspread
+from google.oauth2.service_account import Credentials
+import pandas as pd
+from datetime import datetime
 from PIL import Image
 import base64
 
@@ -322,3 +326,5 @@ elif sidebar_choice == "Ongoing Projects":
     - **Skills:** NLP, text analysis, machine learning.
     """)
     st.markdown("[Open App](https://your-resume-app-link)", unsafe_allow_html=True)
+
+
