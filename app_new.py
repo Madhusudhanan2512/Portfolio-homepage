@@ -65,7 +65,7 @@ if sidebar_choice == "Home":
             “Data science isn’t the privilege of a select few—it’s an opportunity for anyone willing to learn, explore, and create.”
         </span>
         <br>
-        <span style="font-size:16px; color:#444;">— Madhusudhanan</span>
+        <span style="font-size:16px; color:#333333;">— Madhusudhanan</span>
     </div>
     """, unsafe_allow_html=True)
     
