@@ -36,8 +36,8 @@ sidebar_choice = st.sidebar.radio(
         "Important Info About This App",
         "Virtual Internships",
         "Completed Projects",
-        "Ongoing Projects",
-        "Comments & Suggestions"
+        "Ongoing Projects"
+       
     ]
 )
 
@@ -315,53 +315,6 @@ elif sidebar_choice == "Ongoing Projects":
     """)
     st.markdown("[Open App](https://your-resume-app-link)", unsafe_allow_html=True)
 
-elif sidebar_choice == "Comments & Suggestions":
-    # ---- COMMENTS SECTION ----
-    import gspread
-    from google.oauth2.service_account import Credentials
-    import json
-    import pandas as pd
-    from datetime import datetime
 
-
-    # 1. Load Google service account credentials from Streamlit Secrets
-    service_account_info = json.loads(st.secrets["gcp_service_account"])
-    SCOPES = [
-        "https://www.googleapis.com/auth/spreadsheets",
-        "https://www.googleapis.com/auth/drive"
-    ]
-    creds = Credentials.from_service_account_info(service_account_info, scopes=SCOPES)
-    gc = gspread.authorize(creds)
-
-    # 2. Now access your sheet as before
-    SHEET_NAME = 'PortfolioComments'  # Or your chosen sheet name
-    sheet = gc.open(SHEET_NAME).sheet1
-
-    # 3. Everything else (functions, Streamlit form, etc.) stays the same!
-    def fetch_comments():
-        data = sheet.get_all_records()
-        return pd.DataFrame(data)
-
-    def add_comment(name, comment):
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        sheet.append_row([timestamp, name if name else "Anonymous", comment])
-
-    st.subheader("💬 Comments & Suggestions")
-
-    with st.form("comments_form", clear_on_submit=True):
-        name = st.text_input("Name (optional):")
-        comment = st.text_area("Your comment or suggestion:")
-        submitted = st.form_submit_button("Submit")
-        if submitted and comment.strip():
-            add_comment(name, comment)
-            st.success("Thank you for your comment!")
-
-    comments_df = fetch_comments()
-    if not comments_df.empty:
-        st.write("### Previous Comments:")
-        for _, row in comments_df[::-1].iterrows():
-            st.markdown(f"- **{row['name']}** ({row['timestamp']}):<br> {row['comment']}", unsafe_allow_html=True)
-    else:
-        st.info("No comments yet—be the first to leave feedback!")
 
 
