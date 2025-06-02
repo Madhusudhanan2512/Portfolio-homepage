@@ -182,7 +182,7 @@ elif sidebar_choice == "Virtual Internships":
     - Scraped and analyzed customer review data to uncover key insights.
     - Built a predictive model to understand factors influencing buying behavior.
     """)
-    st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
+    st.markdown("[Open App](https://Madhusudhanan2512-british-airways-analytics.hf.space)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
 
     st.subheader("Cognizant Artificial Intelligence Job Simulation")
     st.write("""
