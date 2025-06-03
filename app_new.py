@@ -104,19 +104,19 @@ if sidebar_choice == "Home":
             <h4 style="color:#0A66C2;">🎓 Virtual Internships</h4>
             <ul style="list-style-type:none; padding-left:0;">
                 <li><strong>BCG – Data Science Simulation</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--BCG-Data-Science-Job-Simulation-Program' target='_blank'>GitHub</a>
+                    💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--BCG-Data-Science-Job-Simulation-Program' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>British Airways – Data Science Simulation</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--British-Airways-Data-Science-Job-Simulation-Program' target='_blank'>GitHub</a>
+                    💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--British-Airways-Data-Science-Job-Simulation-Program' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Cognizant – AI Job Simulation</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation---Cognizant-Artificial-Intelligence-Job-Simulation-Program' target='_blank'>GitHub</a>
+                    💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation---Cognizant-Artificial-Intelligence-Job-Simulation-Program' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>Standard Bank – Data Science Simulation</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation-Standard-Bank-Data-Science-simulation-program' target='_blank'>GitHub</a>
+                    💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation-Standard-Bank-Data-Science-simulation-program' target='_blank'>GitHub</a>
                 </li><br>
                 <li><strong>PwC Switzerland – Power BI Simulation</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--PwC-Switzerland-Power-BI-Job-Simulation-Program' target='_blank'>GitHub</a>
+                    💻 <a href='https://github.com/Madhusudhanan2512/Job-Simulation--PwC-Switzerland-Power-BI-Job-Simulation-Program' target='_blank'>GitHub</a>
                 </li>
             </ul>
         </div>
