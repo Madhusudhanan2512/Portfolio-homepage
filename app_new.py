@@ -196,7 +196,7 @@ elif sidebar_choice == "Virtual Internships":
     - Communicated findings and analysis in a PowerPoint slide to present results to the business.
     """)
     
-    st.markdown("[Open App](https://your-pwc-app-link)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
+    st.markdown("[Open App](https://madhusudhanan2512-new-project.hf.space)  <!-- Add target='_blank' in HTML if you wish -->", unsafe_allow_html=True)
 
     st.subheader("BCG Data Science Job Simulation")
     st.write("""
