@@ -149,7 +149,7 @@ if sidebar_choice == "Home":
             <h4 style="color:#0A66C2;">🔄 Ongoing Projects</h4>
             <ul style="list-style-type:none; padding-left:0;">
                 <li><strong>Resume Feedback Generator</strong><br>
-                    🎥 <a href='#' target='_blank'>Video</a> | 💻 <a href='#' target='_blank'>GitHub</a>
+                    💻 <a href='#' target='_blank'>GitHub</a>
                 </li>
             </ul>
         </div>
