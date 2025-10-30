@@ -90,7 +90,7 @@ if sidebar_choice == "Home":
 
             🌐 [LinkedIn](www.linkedin.com/in/madhusudhanan-s-61580036a) | 🐍 [GitHub](https://github.com/Madhusudhanan2512)
             """)
-            with open("resume.pdf", "rb") as f:
+            with open("Madhusudhanan_data_scientist.pdf", "rb") as f:
                 st.download_button("📄 Download Resume", f, file_name="Madhusudhanan_data_scientist.pdf")
 
     st.markdown("---")
