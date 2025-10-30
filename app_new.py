@@ -88,7 +88,7 @@ if sidebar_choice == "Home":
             With hands-on experience in predictive modeling, EDA, and machine learning, I enjoy solving real-world problems 
             using Python, and Streamlit.
 
-            🌐 [LinkedIn](www.linkedin.com/in/madhusudhanan-s-61580036a) | 🐍 [GitHub](https://github.com/Madhusudhanan2512)
+            🌐 [LinkedIn](linkedin.com/in/madhusudhanan-s-61580036a) | 🐍 [GitHub](https://github.com/Madhusudhanan2512)
             """)
             with open("Madhusudhanan_data_scientist.pdf", "rb") as f:
                 st.download_button("📄 Download Resume", f, file_name="Madhusudhanan_data_scientist.pdf")
